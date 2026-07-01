@@ -1,6 +1,32 @@
-body {
+/* Big stuff first*/
+ * {
+margin: 0;
+padding: 0;
 
+ }
+
+body {
 background-color: black;
 color: #8b5aaf;
 
+}
+
+
+/*Small stuff / details*/
+
+.icons {
+    width: 245px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 110px;
+}
+
+
+.section-characters {
+    display: flex;
+    background-color: #4a2962;
+    width: 45%;
+    flex-direction: column;
+    margin: 50px;
+    border-radius: 20px;
 }
